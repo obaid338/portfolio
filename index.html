@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Obaid</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7a5bbe4457.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="images/Preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Data Scientist / Data Analyst</p>
+                <h1>Hi, I'm <span>Syed Adnan</span><br>From India.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------about----------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/obaid.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Experienced Data Scientist and Data Analyst with over 2 years of expertise in building and 
+                        maintaining data solutions across multiple industries. Proven track record in developing, designing 
+                        interactive Power BI and Tableau dashboards and managing complex data workflows. Skilled in SQL, 
+                        data modeling and working with relational databases like MySQL and Oracle. Adept at collaborating with 
+                        cross-functional teams to deliver high-quality data integration and business intelligence solutions, 
+                        ensuring data accuracy and providing actionable insights. Proficient in automating data refreshes, 
+                        conducting data profiling and cleansing, and optimizing database performance.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Data Science</span><br>Machine learning algorithms</li>
+                                <li><span>Data Analyst</span><br>Collect, Clean, and Analyze data</li>
+                                <li><span>Power BI</span><br>Complex Data Visual Arts</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span> 11/2023 - 04/2024 </span><br>Data Scientist Intern at AI Variant</li>
+                                <li><span> 09/2022 - 09/2023</span><br>Data Analyst at RelanceRetail</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span><br>Bachelor's Degree from JNTUH (Information Technology)</li>
+                                <li><span>2020</span><br>Diploma from SBTET (Computer Engineering)</li>
+                                <li><span>2017</span><br>Secondary School Certificate (India)</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------Services----------------------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Machine Learning Models</h2>
+                    <p>Building scalable machine learning systems to empower intelligent decision-making and automation.</p>
+                    <a href="https://www.researchgate.net/publication/371760199_CANCER_TUMOR_DETECTION_USING_MACHINE_LEARNING">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data Analyst</h2>
+                    <p>Transforming data into actionable insights to drive informed business decisions.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-column"></i>
+                    <h2>Power BI Developer</h2>
+                    <p>Designing dynamic Power BI dashboards to visualize data and empower decision-making.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+ <!-- ---------------Portfolio--------------- -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Job Recommendation System</h3>
+                    <p>To match candidates with the most suitable job opportunities based on their skills and past experiences.</p>
+                    <a href="https://github.com/obaid338/job-recommendation-engine"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>E-Commerce Sales Analysis</h3>
+                    <p>To uncover trends, generate insights, and create visualizations for informed business decision-making.</p>
+                    <a href="images/blinkit.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Complex Dashboards</h3>
+                    <p>visualizing key insights to improve operational efficiency and customer satisfaction.</p>
+                    <a href="images/complex.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/obaid338?tab=repositories" class="btn">See more</a>
+    </div>
+
+  </div>
+
+  <!-- ------------------------contact--------------------------- -->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> osyed650@gmail.com</p>
+                <p> <i class="fa-solid fa-square-phone"></i> +966 53 517 1852</p>
+                <div class="social-icons">
+                    <a href="https://github.com/obaid338"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/SyedOba73388311"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/_____aadnxxn_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/syed-obaid-b922b5213/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright © Syed Adnan <i class="fa-solid fa-heart"></i></p>
+    </div>
+   </div>
+
+
+
+
+
+
+ 
+
+
+
+
+     <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+        }
+     </script>
+
+     <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+     </script>
+
+
+
+
+     
+</body>   
+
+</html>
